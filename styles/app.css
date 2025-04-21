@@ -1,0 +1,159 @@
+                                                                   :root {
+                                                                      --Navyblue: #000080;
+                                                                      --White: #FFFFFF;
+                                                                      --DeepSkyBlue: #00bfff;
+                                                                      --BurntSienna: #E97451;
+                                                                      --Vividblue: #582FF5;
+                                                                      --Brightcyan: #30F194;
+                                                                      --TartOrange: #F74b4A;
+                                                                      --GoldenPoppy: #FEC101;
+                                                                      --Green: #008000;
+                                                                      --Blue: #0000ff;
+                                                                      --Gray: #808080;
+                                                                      --bg-app: #181928;
+                                                                  }
+                                                                  
+                                                                  html {
+                                                                      box-sizing: border-box;
+                                                                      font-size: 62.5%;
+                                                                  }
+                                                                  
+                                                                  *,
+                                                                  *::after,
+                                                                  *::before {
+                                                                      box-sizing: inherit;
+                                                                  }
+                                                                  
+                                                                  body {
+                                                                      line-height: 1.6rem;
+                                                                      font-size: 1.6rem;
+                                                                      font-family: "Iranian_Sans";
+                                                                      background-color: var(--bg-app);
+                                                                  }
+                                                                  /* Nav Section*/
+                                                                  
+                                                                  .container {
+                                                                      padding-left: 1.5rem;
+                                                                      padding-right: 1.5rem;
+                                                                      margin-left: auto;
+                                                                      margin-right: auto;
+                                                                  }
+                                                                  
+                                                                  .header {
+                                                                      margin-top: 1.5rem;
+                                                                  }
+                                                                  
+                                                                  .header-content {
+                                                                      background: url("../images/PNG/f1.png");
+                                                                      background: size 50px;
+                                                                      margin-top: 4rem;
+                                                                      background-position: center;
+                                                                      background-size: cover;
+                                                                      width: 75rem;
+                                                                      height: 44rem;
+                                                                      padding-top: 10%;
+                                                                      padding-right: 6%;
+                                                                      display: flex;
+                                                                  }
+                                                                  
+                                                                  .text {
+                                                                      color: var(--White);
+                                                                  }
+                                                                  
+                                                                  .text1 {
+                                                                      font-size: 12px;
+                                                                      color: var(--White);
+                                                                      margin-top: 75px;
+                                                                      margin-left: 320px;
+                                                                      margin-right: -140px;
+                                                                  }
+                                                                  
+                                                                  .button1_s2 {
+                                                                      margin-top: 5rem;
+                                                                      text-align: center;
+                                                                      width: 150px;
+                                                                      height: 40px;
+                                                                      background: var(--Vividblue);
+                                                                      font-size: 12px;
+                                                                      color: #FFFFFF;
+                                                                      cursor: pointer;
+                                                                      border-radius: 10px;
+                                                                      font-family: "Iranian_Sans";
+                                                                  }
+                                                                  
+                                                                  .nav {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      align-items: center;
+                                                                  }
+                                                                  
+                                                                  .nav_wrapper {
+                                                                      display: flex;
+                                                                      justify-content: space-between;
+                                                                      align-items: center;
+                                                                  }
+                                                                  
+                                                                  .nav_logo {
+                                                                      margin-left: 2rem;
+                                                                  }
+                                                                  
+                                                                  .menue-list {
+                                                                      display: flex;
+                                                                      gap: 2rem;
+                                                                  }
+                                                                  
+                                                                  .menue-list_item {
+                                                                      color: var(--White);
+                                                                  }
+                                                                  
+                                                                  .button1 {
+                                                                      text-align: center;
+                                                                      width: 122px;
+                                                                      height: 40px;
+                                                                      background: var(--Vividblue);
+                                                                      font-size: 12px;
+                                                                      color: #FFFFFF;
+                                                                      cursor: pointer;
+                                                                      border-radius: 10px;
+                                                                      font-family: "Iranian_Sans";
+                                                                  }
+                                                                  
+                                                                  form {
+                                                                      margin-right: 12rem;
+                                                                      background-color: #9074F8;
+                                                                      width: 250px;
+                                                                      height: 40px;
+                                                                      border-radius: 10px;
+                                                                      display: flex;
+                                                                      flex-direction: row;
+                                                                      align-items: center;
+                                                                  }
+                                                                  
+                                                                  input {
+                                                                      font-family: "Iranian_Sans";
+                                                                      all: unset;
+                                                                      color: #fff;
+                                                                      height: 100%;
+                                                                      width: 100%;
+                                                                      padding: 6px 10px;
+                                                                  }
+                                                                  
+                                                                   ::placeholder {
+                                                                      color: #fff;
+                                                                      opacity: 0.7;
+                                                                  }
+                                                                  
+                                                                  svg {
+                                                                      color: #fff;
+                                                                      fill: currentColor;
+                                                                      width: 24px;
+                                                                      height: 24px;
+                                                                      padding: 10px;
+                                                                  }
+                                                                  
+                                                                  button {
+                                                                      all: unset;
+                                                                      cursor: pointer;
+                                                                      width: 44px;
+                                                                      height: 44px;
+                                                                  }
